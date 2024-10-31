@@ -1,0 +1,24 @@
+{
+    "name": "Males Kopas",
+    "version": "0.0.2",
+    "description": "Males kopas auth? Sini ku kopas-in.",
+    "manifest_version": 2,
+    "author": "Wuri Nugrahadi",
+    "permissions": [
+        "activeTab",
+        "storage"
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_title": "Kopas Auth"
+    },
+    "applications": {
+        "gecko": {
+            "id": "{123e4567-e89b-12d3-a456-426614174000}",
+            "strict_min_version": "91.0"
+        }
+    }
+}
