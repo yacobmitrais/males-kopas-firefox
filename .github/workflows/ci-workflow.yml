@@ -1,0 +1,8 @@
+name: Test Runner
+on: [push]
+jobs:
+  test:
+    runs-on: self-hosted
+    steps:
+    - name: Run a one-liner script
+      run: echo "Success! Your self-hosted runner is working."
